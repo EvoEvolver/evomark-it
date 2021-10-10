@@ -3,12 +3,12 @@
 %block
     margin: auto
     border-radius: 0.3rem
-    margin-top: 0.5rem
-    margin-bottom: 0.5rem
+    margin-top: 1.2rem
+    margin-bottom: 1.2rem
     padding: 0.6rem
-    padding-left: 1rem
-    padding-right: 1rem
-    width: 98%
+    padding-left: 0.5rem
+    padding-right: 0.5rem
+    width: 100%
     box-shadow: 0 0 10px 10px #88888830
 
 %block-title
@@ -76,6 +76,17 @@
 .box-quote
     @extend %block
     border: 3px solid gray
+
+.proof-box
+    @extend %block
+    &::before
+        display: block
+        content: "Proof"
+        font-weight: bold
+    &::after
+        display: block
+        text-align: right
+        content: "❏"
 
 figure img
     display: block
