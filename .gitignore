@@ -6,3 +6,4 @@ demo/
 apidoc/
 *.log
 lib_new
+template/src/.evomark_ir
