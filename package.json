@@ -10,10 +10,7 @@
     "markdown-it": "bin/markdown-it.js"
   },
   "scripts": {
-    "lint": "eslint .",
-    "dev": "concurrently 'cd docs;yarn dev;' 'node ./builder/index.js'",
-    "vite": "cd docs;yarn dev;",
-    "test_mb": "node ./builder/index.js"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@orcid/bibtex-parse-js": "^0.0.25",
@@ -26,7 +23,6 @@
     "mathjax-node": "^2.1.1",
     "mdurl": "^1.0.1",
     "node-dir": "^0.1.17",
-    "node-watch": "^0.7.1",
     "relaxed-json": "^1.0.3",
     "toml": "^3.0.0",
     "uc.micro": "^1.0.5",
